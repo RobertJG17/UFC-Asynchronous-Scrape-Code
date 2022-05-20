@@ -1,0 +1,11 @@
+/env
+/app/source/
+/app/static/csvfiles
+/app/gcloud_func_fighters
+/app/gcloud_func_stats
+/app/gcloud_func_fighters.zip
+/app/gcloud_func_stats.zip
+/app/notebooks
+/app/static
+*.DS_Store
+.vs_code
