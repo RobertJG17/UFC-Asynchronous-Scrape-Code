@@ -75,7 +75,7 @@ async def get_fighter_data(soup, fighter, slug):
 
 async def main():
     tasks = []
-    sem = asyncio.Semaphore(1000)
+    sem = asyncio.Semaphore(200)
 
     df = pd.read_csv("./static/csvfiles/fighters.csv")
     df['slug'] = df['name'].apply(lambda n: n.lower().replace(' ','-'))
